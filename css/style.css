@@ -1,0 +1,204 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+  background: linear-gradient(to bottom right, #575c5d, #1a1d21);
+
+}
+
+main{
+	background: url("../payment-form-assets/unsplash.png") no-repeat;
+	background-position: 100% 100%;
+	width: 100%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+
+
+section{
+	width: 30%;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+
+.header__left span:first-child{
+ 	font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(110, 127, 123);
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: -20px;
+
+}
+
+.header__left span:last-child{
+	font-size: 0.7em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(166, 162, 141);
+  text-transform: uppercase;
+  display: inline-block;
+
+}
+
+.header{
+	width: 100%;
+	overflow: auto;
+	background-color: #efe4aa;
+	padding: 4% 4%;
+}
+
+.header__left{
+	float: left;
+	text-align: left
+	width: 50%;
+}
+
+.header__right{
+	float: right;
+	text-align: right;
+	width: 50%;
+	font-size: 2.2em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(99, 117, 112);
+  font-weight: 600;
+}
+
+.payment-form{
+	width: 100%;
+	padding: 5% 5%;
+	background-color: #f5f5f5;
+}
+
+.payment-form__credit{
+	font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(158, 171, 173);
+   font-weight: 600;
+}
+
+.payment-form__card-number{
+ 	
+ 	font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(114, 127, 130);
+  width: 100%;
+
+}
+
+.payment-form__expiration{
+	font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(158, 171, 173);
+  font-weight: 600;
+}
+
+	.payment-form__month{
+
+		font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(114, 127, 130);
+  width: 65%;
+
+	}
+
+	.payment-form__year{
+		float: right;
+
+	font-size: 1em;
+  	font-family: "Montserrat", sans-serif;
+  	color: rgb(114, 127, 130);
+  	width: 33%;
+
+	}
+
+	.payment-form__cvv-name{
+		font-size: 0.9em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(158, 171, 173);
+  font-weight: 600;
+	}
+
+	.payment-form__cvv{
+		width: 30%;
+		font-size: 1.5em;
+
+	}
+
+	.payment-form__cvv-exapmle{
+		display: inline-block;
+		font-size: 0.8em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(158, 171, 173);
+  font-weight: 600;
+	}
+.payment-form__cvv-a{
+	font-size: 1em;
+	color: rgb(158, 171, 173);
+  font-weight: 600;
+}
+
+.payment-form__hr{
+	text-align: center;
+}
+
+.payment-form__pay{
+	width: 100%;
+	background-color: #26b168;
+	font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: none;
+  margin:20px 0;
+  height: 40px;
+}
+.payment-form__cancel{
+	font-size: 0.8em;
+	color: rgb(158, 171, 173);
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+input{
+	height: 40px;
+	margin-bottom: 20px;
+	  border: 2px solid #b3c1c4;
+
+}
+
+
+select{
+
+	height: 40px;
+	margin-bottom: 20px;
+	-webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("../payment-form-assets/triangle.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  border: 2px solid #b3c1c4;
+
+
+}
+
+
+input:focus{
+
+	  border: 2px solid #7ecddf;
+
+}
+
+
+select:focus{
+
+	  border: 2px solid #7ecddf;
+
+}
